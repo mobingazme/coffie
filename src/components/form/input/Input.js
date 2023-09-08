@@ -31,7 +31,7 @@ const Input = ({ title, inputProps, icon, inputGroupClass, autofocus }) => {
         {inputProps?.type == 'textarea' ? (
           <textarea
             {...inputProps}
-            className={`min-h-[theme(height.40)] outline-none flex-1 rounded-lg w-full px-4 ${inputProps?.className}`}
+            className={`min-h-[theme(height.40)] outline-none flex-1 rounded-lg w-full px-4  ${inputProps?.className}`}
           ></textarea>
         ) : (
           <input

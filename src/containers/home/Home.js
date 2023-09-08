@@ -14,7 +14,7 @@ import Home6 from './components/Home6'
 import ProductDetails from "./../product-detail/ProductDetails"
 import Profile from '@/pages/profile'
 import Slider11 from '../cart/slider11'
-import Login from './login/Login'
+import Login from '../login/Login'
 import Search from '@/components/header/SearchBox'
 
 

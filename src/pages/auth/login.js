@@ -1,5 +1,5 @@
-import login from "@/containers/home/login/Login";
-import { getProfileRequest } from "@/service/Requests";
+import login from "@/containers/login/Login";
+import { getProfileRequest } from "@/services/Requests";
 import { useEffect } from "react";
 export default login;
 

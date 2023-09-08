@@ -1,5 +1,5 @@
 import register from "@/containers/register/Register";
-import { getProfileRequest } from "@/service/Requests";
+import { getProfileRequest } from "@/services/Requests";
 import { useEffect } from "react";
 export default register;
 

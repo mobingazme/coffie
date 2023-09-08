@@ -6,7 +6,7 @@ import Search from './SearchBox'
 
 import { Icon } from '@iconify/react'
 import Link from 'next/link'
-import Login from '@/containers/home/login/Login'
+import Login from '@/containers/login/Login'
 import Saidbar from './Saidbar'
 import Counter from '@/containers/product-detail/Counter'
 

@@ -121,3 +121,30 @@ a {
 .just-center{
   @apply flex justify-center items-center
 }
+
+
+
+.otp-input {
+  width: 100% !important;
+  height: 56px;
+  background: transparent;
+}
+.otp-input input:focus-within {
+  border: 2px solid var(--color-secondary) !important;
+}
+.otp-input > div {
+  width: 100% !important;
+  display: flex !important;
+
+  justify-content: space-between !important;
+}
+.otp-input input {
+  background: transparent;
+  border: 1.3px solid var(--color-caption) !important;
+  border-radius: 10px !important;
+  height: 40px !important;
+  max-width: 50px;
+}
+.otp-input input:focus {
+  border-bottom: 2px solid var(--color-secondary);
+}

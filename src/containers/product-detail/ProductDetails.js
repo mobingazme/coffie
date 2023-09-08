@@ -1,7 +1,7 @@
 import { Icon } from '@iconify/react'
 import React, { useState } from "react"
 import Counter from './Counter';
-import Login from '../home/login/Login';
+import Login from '../login/Login';
 //import { Icon } from "@iconify/react";
 
 
